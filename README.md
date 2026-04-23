@@ -49,10 +49,15 @@ This project uses the Students Performance dataset to build a binary classificat
 
 ## Results
 
+### Logistic Regression
 | Metric | Value |
 |--------|-------|
-| Model | Logistic Regression |
-| Train/Test Split | 80/20 |
+| Accuracy | 97.5% |
+| Precision (Pass) | 0.98 |
+| Recall (Pass) | 0.99 |
+| F1-Score (Pass) | 0.99 |
+
+> **Note:** The dataset is heavily imbalanced — 193 students passed vs only 7 failed. Due to this imbalance, the model achieves high overall accuracy but performs poorly on the minority class (Fail — Recall: 43%). A balanced dataset or techniques like SMOTE would likely produce more reliable results.
 
 ---
 
